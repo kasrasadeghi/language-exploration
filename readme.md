@@ -1,21 +1,24 @@
-objective: learn about compilers
+# Objective: Learn about Compilers
 
-- in go
-  - DONE
-  - no algebraic data types
-    - no generics, but interface{}
-  - the go ecosystem is very opinionated.
-  - fast to set up
-  - annoying like c++
-  - has threads, but they are not immediately useful
-  
+This file lists languages I have thought about writing a compiler
+in. 
+
+**TODO**: The languages marked as **TODO** I haven't written the basic
+test program in, but I think it might be an interesting exercise.
+
+**STALLED**: I tried writing the basic test program, but it was
+annoying.
+
+**DONE**: I finished writing the basic test program.
+
 - in c
+  - **STALLED**
   - mother of all languages
   - excruciatingly annoying to work with
   - no abstractions
   - few structural library support stuff
   - everything is written in c
-
+  
 - in C++
   - familiar
   - useful language
@@ -28,13 +31,25 @@ objective: learn about compilers
   - little tooling for c++17
 
 - in haskell
+  - **TODO**
   - unfamiliar
   - tooling is weird
 
-- in pony
-  - very experimental
-  - very cool
-  - definitely not stable yet. should not embark on any big projects
+- in java
+  - easy
+  - lots of tooling
+  - pretty fast
+  - lots of libraries
+
+- in f#
+  - heard some nice things
+  - kinda platform specific, but probably not an issue
+  - **TODO**
+
+- in scala
+  - works with java
+  - **TODO**
+  - apparently very little tooling and language has strange hacks
 
 - in rust
   - annoying
@@ -43,53 +58,65 @@ objective: learn about compilers
   - unfamiliar
   - new, so not a lot of marketshare
 
-- in java
-  - easy
-  - lots of tooling
-  - pretty fast
-  - lots of libraries
+- in C#
+  - **TODO**
 
-- in scala
-  - works with java
-  - NEED MORE INFO
-  - apparently very little tooling and language has strange hacks
+- in nim
+  - **TODO**
 
-- in ocaml
-  - annoying
-  - bad tooling
+- in pony
+  - **TODO**
+  - very experimental
+  - very cool
+  - definitely not stable yet. should not embark on any big projects
 
-- in f#
-  - heard some nice things
-  - kinda platform specific, but probably not an issue
-  - NEED MORE INFO
+- in racket
+  - no types, unless TypedRacket
+  - not very well used
+  - **TODO**
+
+- in scheme
+  - **TODO**
+
+- in clojure
+  - nice emacs tooling, but kind of annoying syntax
+  - **TODO**
+  - not a lot of tooling
 
 - in D
-  - NEED MORE INFO
-
-- in C#
-  - NEED MORE INFO
+  - kinda crazy
+  - nobody knows it
+  - **TODO**
 
 - in python
   - no types
   - terrible for large projects
   - terrible for teams
 
-- in racket
-  - no types
-  - not very well used
-  - NEED MORE INFO
+- in ocaml
+  - annoying
+  - bad tooling
 
-- in scheme
-  - NEED MORE INFO
+- in go
+  - DONE
+  - no algebraic data types
+    - no generics, but interface{}
+  - the go ecosystem is very opinionated.
+  - fast to set up
+  - annoying like c++
+  - has threads, but they are not immediately useful
 
-- in clojure
-  - NEED MORE INFO
+Why not ___?
+- c: too annoying. not enough abstraction.
+- python: bad for teams
+- clojure: people don't know it
+- D: crazy
+- scheme/racket: not enough people know them well
+- pony: experimental
+- nim: early
+- c#: if i use c#, i'd rather use java because kotlin/scala/ceylon/clojure
 
-- in nim
-  - NEED MORE INFO
-
-
-what's nice to have in a language i'm going to write a compiler in?
+What's nice to have in a language i'm going to write a compiler in?
  - generics
  - string manipulation
  - regexps
