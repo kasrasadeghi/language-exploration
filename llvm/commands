@@ -1,0 +1,5 @@
+cat hello.ll
+cat hello.ll
+clang -S -emit-llvm hello.c; cat hello.ll | less
+clang -O3 -S -emit-llvm hello.c; cat hello.ll | less
+cat ~/.bash_history
